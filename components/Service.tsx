@@ -10,7 +10,7 @@ export default function Service() {
             <h2 className=' service text-2xl '><span className='font-semibold'>Services</span> We Offer</h2>
           </div>
           <div>
-            <Image alt="service" width={200} height={200} src="/service_bus.svg" />
+            <Image alt="service" className='hidden md:block' width={200} height={200} src="/service_bus.svg" />
           </div>
         </div>
         <div className='grid py-4 md:grid-cols-3 justify-between gap-3 items-center md:w-[95%] mx-auto md:p-4'>

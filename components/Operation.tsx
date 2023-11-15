@@ -4,8 +4,8 @@ export default function Operation() {
   return (
     <div>
       <div className="md:w-[95%] mx-auto relative min-h-[600px] mb-12">
-        <Image alt="service" className="absolute top-[80px] left-12" width={200} height={200} src="/service_bus.svg" />
-        <h2 className='text-2xl text-center pt-48 pb-24 '><span className='font-semibold service'>Operation </span> Mode</h2>
+        <Image alt="service" className="absolute top-[80px] hidden md:block left-12" width={200} height={200} src="/service_bus.svg" />
+        <h2 className='text-2xl text-center pt-8 md:pt-48 pb-24 '><span className='font-semibold service'>Operation </span> Mode</h2>
         <div className="w-[80%] flex flex-col gap-5 mx-auto">
           <div className="flex items-center md:flex-row flex-col">
             <div className="flex-1">
